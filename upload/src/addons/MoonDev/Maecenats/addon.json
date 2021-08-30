@@ -1,0 +1,16 @@
+{
+    "legacy_addon_id": "",
+    "title": "[MoonDev] Maecenats",
+    "description": "Creates the Patron of the Month widget ",
+    "version_id": 1010070,
+    "version_string": "1.0.1",
+    "dev": "MoonDev Studios",
+    "dev_url": "https://moondev.ru/",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": {
+        "Deku": "https://t.me/deku_fx/"
+    },
+    "require": [],
+    "icon": "fa-money-check-edit-alt"
+}

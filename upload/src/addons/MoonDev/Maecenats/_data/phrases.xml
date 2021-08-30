@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="maecenat_of_month" version_id="1000070" version_string="1.0.0"><![CDATA[Patron of the forum]]></phrase>
+  <phrase title="option.moon_patron_amount" version_id="1000070" version_string="1.0.0"><![CDATA[Patron amount of donation]]></phrase>
+  <phrase title="option.moon_patron_description" version_id="1000070" version_string="1.0.0"><![CDATA[Patron Description]]></phrase>
+  <phrase title="option.moon_patron_name" version_id="1000070" version_string="1.0.0"><![CDATA[Patron Username]]></phrase>
+  <phrase title="option_explain.moon_patron_amount" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.moon_patron_description" version_id="1000070" version_string="1.0.0"><![CDATA[Enter the description to be used in the widget]]></phrase>
+  <phrase title="option_explain.moon_patron_name" version_id="1000070" version_string="1.0.0"><![CDATA[Enter the nickname of the user that will be displayed in the widget]]></phrase>
+  <phrase title="option_group.moondev_maecenats" version_id="1000070" version_string="1.0.0"><![CDATA[[MoonDev] Maecenats]]></phrase>
+  <phrase title="option_group_description.moondev_maecenats" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="widget_def.moondev_maecenats_widget" version_id="1000070" version_string="1.0.0"><![CDATA[[MoonDev] Maecenats of month]]></phrase>
+  <phrase title="widget_def_desc.moondev_maecenats_widget" version_id="1000070" version_string="1.0.0"><![CDATA[]]></phrase>
+</phrases>

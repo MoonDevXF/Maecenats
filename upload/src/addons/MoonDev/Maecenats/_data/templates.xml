@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="admin" title="widget_def_options_moondev_maecenats_widget" version_id="1000070" version_string="1.0.0"><![CDATA[]]></template>
+  <template type="public" title="moon_maecenats.less" version_id="1010070" version_string="1.0.1"><![CDATA[.donation-amount {
+	color: @xf-textColor;
+	font-weight: bold;
+	position: relative;
+	left: 51px;
+	bottom: 28px;
+	height: 0px;
+}
+
+.patron_description  {
+    padding: 10px;
+    background: #eaeaea; /// Фон комментария мецената
+    border-radius: 8px;
+  	margin-top: 15px;
+}
+
+
+.patron_description:before {
+    content: '';
+    position: relative;
+    left: 7px;
+    top: -40px;
+    border: 8px solid transparent;
+    border-bottom: 10px solid #eaeaea; // Фон стрелочки, указывающей на аватарку мецената
+}]]></template>
+  <template type="public" title="moon_maecenats_widget" version_id="1010070" version_string="1.0.1"><![CDATA[<xf:css src="moon_maecenats.less"  />
+
+<div class="block">
+  <div class="block-container">
+    <div class="block-body block-row">
+	<xf:set var="$getVisitor" value="{$xf.app.em.getRepository('XF:User').getUserByNameOrEmail($xf.options.moon_patron_name)}" />
+    
+	<xf:avatar user="$getVisitor" size="s" notooltip="true" /> 
+    <xf:username user="$getVisitor" rich="true" notooltip="true" /> 
+		
+	<div class="donation-amount">
+		{$xf.options.moon_patron_amount} <xf:fa icon="fas fa-ruble-sign" />
+	</div>
+    <xf:if contentcheck="true">
+     <div class="patron_description">
+         <xf:contentcheck>{$xf.options.moon_patron_description}</xf:contentcheck>
+     </div>
+    </xf:if>
+    </div>
+  </div>
+</div>]]></template>
+</templates>
